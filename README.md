@@ -13,14 +13,19 @@ npm run dev     # sobe a API em http://localhost:3333
 
 ## Comandos
 
-| Comando         | O que faz                                          |
-| :-------------- | :------------------------------------------------- |
-| `npm run dev`   | Sobe a API recarregando a cada alteração salva     |
-| `npm run build` | Compila o TypeScript para a pasta `dist`           |
-| `npm start`     | Executa a versão compilada, como roda em produção  |
+| Comando                | O que faz                                         |
+| :--------------------- | :------------------------------------------------ |
+| `npm run dev`          | Sobe a API recarregando a cada alteração salva    |
+| `npm run build`        | Compila o TypeScript para a pasta `dist`          |
+| `npm start`            | Executa a versão compilada, como roda em produção |
+| `npm run lint`         | Procura problemas de lógica e qualidade no código |
+| `npm run lint:fix`     | Corrige sozinho o que for corrigível              |
+| `npm run format`       | Formata todos os arquivos com o Prettier          |
+| `npm run format:check` | Confere a formatação sem alterar nada             |
+| `npm run check`        | Roda lint, formatação e build em sequência        |
 
 ## Rotas
 
-| Método | Rota      | O que devolve                                |
-| :----- | :-------- | :-------------------------------------------- |
-| `GET`  | `/health` | O estado da API: status, uptime e ambiente    |
+| Método | Rota      | O que devolve                              |
+| :----- | :-------- | :----------------------------------------- |
+| `GET`  | `/health` | O estado da API: status, uptime e ambiente |

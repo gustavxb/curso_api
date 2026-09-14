@@ -1,0 +1,17 @@
+# Informa ao editor que este é o arquivo principal de configuração.
+# Ele não deve procurar outro .editorconfig em pastas acima desta.
+root = true
+
+# Regras válidas para todos os arquivos (o asterisco significa "tudo")
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Markdown é a exceção: dois espaços no fim da linha significam "quebre a linha aqui".
+# Se o editor apagasse esses espaços, a formatação dos nossos textos quebraria.
+[*.md]
+trim_trailing_whitespace = false

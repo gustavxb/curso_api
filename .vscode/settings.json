@@ -1,0 +1,28 @@
+{
+  // Formata o arquivo toda vez que você salva (Ctrl + S).
+  "editor.formatOnSave": true,
+
+  // Quem formata é o Prettier. O ESLint cuida de qualidade, não de aparência.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Ao salvar, o ESLint também corrige sozinho o que for corrigível
+  // (variável não usada, import fora de ordem, etc.).
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Linha vertical marcando os 100 caracteres do `printWidth` do Prettier.
+  // Ajuda a perceber quando a linha está ficando longa demais antes de salvar.
+  "editor.rulers": [100],
+
+  // Mesmo final de linha do `.editorconfig`. Sem isso, quem usa Windows gera
+  // arquivos que aparecem como "totalmente alterados" no Git.
+  "files.eol": "\n",
+
+  // Some com as pastas geradas na busca de arquivos (Ctrl + P) e no "localizar
+  // em todos os arquivos". Elas têm milhares de arquivos que não interessam.
+  "search.exclude": {
+    "**/dist": true,
+    "**/node_modules": true
+  }
+}

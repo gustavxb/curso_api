@@ -1,0 +1,23 @@
+{
+  // Quando alguém clona este repositório e abre no VS Code, ele sugere instalar
+  // estas extensões automaticamente. Ninguém precisa lembrar de avisar.
+  //
+  // Esta lista cresce junto com o projeto: cada ferramenta nova que entra
+  // acrescenta aqui a extensão correspondente.
+  "recommendations": [
+    // --- TypeScript: ler erro e testar rota sem sair do editor ---
+    "YoavBls.pretty-ts-errors",
+    "usernamehw.errorlens",
+    "humao.rest-client",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+
+    // --- Git: ver quem alterou cada linha, e quando ---
+    "eamodio.gitlens",
+
+    // --- Padronização do código ---
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "EditorConfig.EditorConfig"
+  ]
+}
